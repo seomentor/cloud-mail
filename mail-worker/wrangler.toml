@@ -40,7 +40,7 @@ crons = ["0 * * * *"]	#每小时执行；resetDaySendCount 仅在 UTC 0 点生�
 
 [vars]
 admin = "shay@rox.co.il"
-domain = '["rox.co.il"]'
+domain = '["rox.co.il", "mac4pc.com"]'
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
